@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MAIN STYLES CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <!-- SEARCH BAR -->
+         <h1 class="weather-forecast-heading">Weather Cast Report</h1>
+         <p class="weather-forecast-paragraph">[Enter the city name] </p>
+        <div class="search">
+            <input id="city" type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <!-- END SEARCH BAR -->
+        <!-- MAIN CONTENT -->
+        <div class="weather">
+            <img src="https://media-hosting.imagekit.io/5cdd21877ce242d5/1000_F_348369238_l4JOFzBN8m0xhD6ZX7H3i5NremHCOyQz__1_-removebg-preview.png?Expires=1841881837&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sGKTp~8xTqWEMywiViWfAfVX0dPBcWy0N93-3ZXXrCUXpTKBnQLQRqCpuE~43ftLUu3QRGr7dI2bWDQTVWcpdkb0uHuqT10j5DejPXd3CTU-AFyok2fj0OZj26bMl~YIFE74F30YZMvdiecj80zEKiCAsCZrPeByI~Gbnf6fCT8KNXsxxcjXHFZ6vdIv~0rS4wTcHLbV8lcHEU0YKb00ADfLSh0WHOG9KR2949O-3QB4rWnPz2lDpGwUKNDDu-PSFprWJKvgorWDt~IeLUwtUO3DP~Q8n5aaTSDUlmVvkF~l7BIm911O04b9UF45N8icjhsrR~teP8KNtwyRirkjdg__" alt="" class="weather-icon">
+            <h1 class="temp">27°c</h1>
+            <h2 class="city">Vizianagaram</h2>
+            <div class="col">
+                <div class="details d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-col">
+                        <img src="https://media-hosting.imagekit.io/4b26f8053d7b4c74/kisspng-computer-icons-humidity-clip-art-5adacfb4707e57.3917249615242894604608-removebg-preview.png?Expires=1841920954&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Q2E-9NlYyh~dPXyToNZYUTbgfaOYk7vyBTQ5LJbNuVomZA~ypMdAoQ5bK1XnuM0Mt5gGxLTNE6Y2wP2H9DUaViZAdxYiF7MH65rOtg1Xa68zKrVGikHoELjr8MiDZgc1cEE5TQix4je8NPH85sxVBdYfCgmil5dqwM2E2UtIZcyDPtnaJ~8-ZzHpJrfugqQPD1Xj3IHp3SRMhAElkZ-JgTuG~UTIcQ6HcEFet-g4WaGD0KBI1yTNa~bvHTGW4Q8mEme5mPRo~ycbd7jvkf3YJax1ocfmC85UlS9JirwujI7PChOZt-v~-0hmkz1xc-u8~2SxHtiseuXK9GovRrZyIw__" alt="" class="humid-img">
+                        <div>
+                            <p class="humidity">56%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="https://media-hosting.imagekit.io/16bea0caf958485c/clip-art-eye-drawing-line-art-illustration-windy-weather-removebg-preview.png?Expires=1841885963&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nH8FI5-zkkw5vzC1AL8C-G31k73HnjJ-QCo7NSJfOqgy~bpRSJxr-1HPdZKVx84Vtsl27gp-VpnPYRyoCBb1xHH-JnrLq8boQUhxEng1LPDc1vh3vNIqw23Ft-lKFDe5MNlRb4dAUW3XvYyjAl46VJ3R77khsyiOBW7z6UKxixlljiqnChPZTcozEEZVvPezKmN2MF6cgKhL0MVarhKxxIV-Byl94BJmzJ~iDde3id~Vq0jZQD3SWZrcyye2yMTB0aaIuNoAxawkZMy1zTV6XZ-w~o6Yu0yPUld6hu-x5FeeHlO~Difh1iCad1uyFxK1vNftYJW1JxYiRO6QkSGJIw__" alt="" class="wind-img">
+                        <div>
+                            <p class="wind">5 Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script src="script.js"></script>
+    </body>
+</html>

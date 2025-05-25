@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif; 
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #a2dede;
+}
+
+.container {
+    align-items: center;
+    background-image: linear-gradient(135deg, #00d49c, #5b548a);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    max-width: 400px;
+    color: #FFF;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius:20px;
+    box-shadow: #ebfffc;
+}
+
+.weather-forecast-heading {
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: x-large;
+}
+
+.weather-forecast-paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.city {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+
+
+.search input{
+    border: darkolivegreen;
+    outline: auto;
+    background: #ebfffc;
+    color: #555;
+    padding: 20px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.search button{
+    border: darkolivegreen;
+    outline: auto;
+    background: #ebfffc;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.search button i{
+    font-size: 20px;
+}
+/* ENDSEARCH BAR */
+/* MAIN CONTENT */
+
+.weather-icon{
+    margin-top: -10px;
+    width: 270px;
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -50px;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.details col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+
+.humid-img{
+    width: 90px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.col p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wind-img {
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.humidity, .wind{
+
+    font-size: 18px;
+    margin-top: -10px;
+    font-family: "Roboto";
+}
